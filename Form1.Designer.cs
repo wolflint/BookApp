@@ -39,6 +39,7 @@
             this.inpId = new System.Windows.Forms.TextBox();
             this.txtTest = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -137,6 +138,7 @@
             this.txtTest.Location = new System.Drawing.Point(17, 277);
             this.txtTest.Multiline = true;
             this.txtTest.Name = "txtTest";
+            this.txtTest.ReadOnly = true;
             this.txtTest.Size = new System.Drawing.Size(771, 161);
             this.txtTest.TabIndex = 9;
             // 
@@ -151,11 +153,22 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.SavePressed);
             // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Source Sans Pro", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(12, 225);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(265, 40);
+            this.lblTotal.TabIndex = 11;
+            this.lblTotal.Text = "Total Saved Books: ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtTest);
             this.Controls.Add(this.inpId);
@@ -187,6 +200,7 @@
         private System.Windows.Forms.TextBox inpId;
         private System.Windows.Forms.TextBox txtTest;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Label lblTotal;
     }
 }
 
