@@ -1,5 +1,4 @@
-
-{"book_id":1,"title":"Book1","author":"Author1","subject":"Subject1"}
-{"book_id":2,"title":"Book2","author":"Author2","subject":"Subject2"}
-{"book_id":3,"title":"Book3","author":"Author3","subject":"Subject3"}
-{"book_id":4,"title":"Book4","author":"Author4","subject":"Subject4"}
+{"book_id":1,"title":"B1","author":"A1","subject":"S1"}
+{"book_id":2,"title":"B2","author":"A2","subject":"S2"}
+{"book_id":3,"title":"B3","author":"A3","subject":"S3"}
+{"book_id":4,"title":"B4","author":"A4","subject":"S4"}
