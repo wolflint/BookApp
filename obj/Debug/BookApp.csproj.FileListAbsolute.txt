@@ -1,0 +1,12 @@
+D:\Repos\CSharp\BookApp\bin\Debug\BookApp.exe.config
+D:\Repos\CSharp\BookApp\bin\Debug\BookApp.exe
+D:\Repos\CSharp\BookApp\bin\Debug\BookApp.pdb
+D:\Repos\CSharp\BookApp\bin\Debug\Newtonsoft.Json.dll
+D:\Repos\CSharp\BookApp\bin\Debug\Newtonsoft.Json.xml
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.csprojAssemblyReference.cache
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.Form1.resources
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.Properties.Resources.resources
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.csproj.GenerateResource.cache
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.csproj.CopyComplete
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.exe
+D:\Repos\CSharp\BookApp\obj\Debug\BookApp.pdb

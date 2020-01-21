@@ -37,6 +37,8 @@
             this.inpAuthor = new System.Windows.Forms.TextBox();
             this.inptSubject = new System.Windows.Forms.TextBox();
             this.inpId = new System.Windows.Forms.TextBox();
+            this.txtTest = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -129,11 +131,33 @@
             this.inpId.Size = new System.Drawing.Size(688, 33);
             this.inpId.TabIndex = 8;
             // 
+            // txtTest
+            // 
+            this.txtTest.Font = new System.Drawing.Font("Source Sans Pro", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTest.Location = new System.Drawing.Point(17, 277);
+            this.txtTest.Multiline = true;
+            this.txtTest.Name = "txtTest";
+            this.txtTest.Size = new System.Drawing.Size(771, 161);
+            this.txtTest.TabIndex = 9;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Font = new System.Drawing.Font("Source Sans Pro", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(652, 228);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(136, 42);
+            this.btnSave.TabIndex = 10;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.SavePressed);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.txtTest);
             this.Controls.Add(this.inpId);
             this.Controls.Add(this.inptSubject);
             this.Controls.Add(this.inpAuthor);
@@ -161,6 +185,8 @@
         private System.Windows.Forms.TextBox inpAuthor;
         private System.Windows.Forms.TextBox inptSubject;
         private System.Windows.Forms.TextBox inpId;
+        private System.Windows.Forms.TextBox txtTest;
+        private System.Windows.Forms.Button btnSave;
     }
 }
 
